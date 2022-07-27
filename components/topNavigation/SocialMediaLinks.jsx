@@ -15,7 +15,7 @@ const SocialMediaLinks = () => {
       <ul className={classes.socialMediaNavbar__Links}>
         <li>
           <a
-            href="https://www.google.com"
+            href="https://github.com/webCatDev"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -25,7 +25,7 @@ const SocialMediaLinks = () => {
 
         <li>
           <a
-            href="https://www.google.com"
+            href="https://www.instagram.com/webcatdev/"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -35,7 +35,7 @@ const SocialMediaLinks = () => {
 
         <li>
           <a
-            href="https://www.google.com"
+            href="https://www.linkedin.com/in/hamzaessiz/"
             target="_blank"
             rel="noreferrer noopener"
           >
