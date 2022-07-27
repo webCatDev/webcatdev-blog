@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Uchen&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  --color-primary-variant-1: hsl(273, 96%, 20%);
+  --color-primary-variant-2: hsl(268, 89%, 29%);
+  --color-primary-variant-3: hsl(268, 89%, 39%);
+  --color-secondary-variant-1: hsl(344, 92%, 59%);
+  --color-secondary-variant-2: hsl(4, 91%, 48%);
+  --color-white: hsl(45, 44%, 89%);
+  --color-white-variant-1: hsl(46, 34%, 99%);
+  --color-white-variant-2: hsl(45, 24%, 89%);
+  --color-black: hsl(223, 96%, 5%);
+  --color-black-variant-1: hsl(223, 26%, 5%);
+  --color-black-variant-2: hsl(223, 16%, 5%);
+  --color-black-variant-3: hsl(300, 5%, 4%);
+  --color-black-variant-4: hsl(300, 3%, 8%);
+  
+  --general-padding: 1em;
+
+  --font-xl: 4rem;
+  --font-l: 3rem;
+  --font-md: 2rem;
+  --font-normal: 1.5rem;
+}
+
+html,
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M15 5h10v30H15zM35-5V5H5V-5zM35 35v10H5V35zM35-15h10v30H35zM55 15v10H25V15zM15 15v10h-30V15zM35 25h10v30H35zM-5 25H5v30H-5zM-5-15H5v30H-5z'  stroke-width='1' stroke='hsla(259, 59%, 59%, 0.1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+

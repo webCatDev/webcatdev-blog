@@ -1,0 +1,24 @@
+.darkModeButton {
+    opacity: 0.2;
+    display: inline-block;
+    padding: .5em;
+    color: var(--color-white);
+    background-image: linear-gradient(to top right, var(--color-black) 0% , var(--color-black) 50%, var(--color-white) 50%,  var(--color-white) 100%);
+    background-size: 400% 400%;
+    background-position: -120%;
+    background-color: var(--color-black);
+    border-radius: .2em;
+    box-shadow: 1px 1px 2px var(--color-black);
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+.darkModeButton:hover {
+    opacity: 1;
+}
+
+.darkModeButton.darkMode {
+background-position: -180%;
+color: var(--color-black);
+background-color: var(--color-white);
+}

@@ -1,0 +1,33 @@
+.socialMediaNavbar {
+  &__Links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.3em;
+
+    svg {
+      transition: all ease 0.3s;
+      opacity: 0.4;
+      color: var(--color-black);
+    }
+
+    svg:hover {
+      transform: scale(1.2);
+      opacity: 1;
+      color: var(--color-primary-variant-1);
+    }
+  }
+}
+
+.socialMediaNavbar.darkMode {
+  svg {
+    color: var(--color-white);
+  }
+
+  svg:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    color: var(--color-secondary-variant-1);
+  }
+}

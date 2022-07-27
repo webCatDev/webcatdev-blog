@@ -1,0 +1,37 @@
+.container { 
+  margin: 0 auto;
+  width: 100%;
+  max-width: 50em;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to right top,
+      var(--color-white-variant-1),
+      var(--color-white-variant-2)
+      );
+      background-color: var(--color-white);
+    }
+    
+    .container.darkMode {
+    background-image: linear-gradient(
+        to right top,
+        var(--color-black-variant-3),
+        var(--color-black-variant-4)
+    );
+    background-color: var(--color-black);
+}
+
+.header {
+    display: flex;
+    padding: var(--general-padding);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.darkMode {
+    background-image: linear-gradient(
+      to right top,
+      var(--color-black-variant-1),
+      var(--color-black-variant-2)
+    );
+    background-color: var(--color-black);
+}
