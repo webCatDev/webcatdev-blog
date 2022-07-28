@@ -1,25 +1,22 @@
 import classes from "./hero.module.scss";
 import Image from "next/image";
-import {useSelector} from 'react-redux'
+import { useSelector } from "react-redux";
 
 const Hero = () => {
-    const isDarkMode = useSelector((state) => state.darkMode.isDarkMode);
+  const isDarkMode = useSelector((state) => state.darkMode.isDarkMode);
 
-     const darkModeClass = isDarkMode ? classes.darkMode : "";
-     const heroClasses = `${classes.hero} ${darkModeClass}`;
+  const darkModeClass = isDarkMode ? classes.darkMode : "";
+  const heroClasses = `${classes.hero} ${darkModeClass}`;
   return (
     <section className={heroClasses}>
-          <Image
+      <Image
         src="/images/hero.jpg"
         alt="çalışma alanı"
         width={600}
         height={300}
         layout="responsive"
       />
-      <h1 className={classes.hero__Main_Heading}>
-        Merhaba,
-        <br /> ben Hamza
-      </h1>
+      <h1 className={classes.hero__Main_Heading}>Merhaba, ben Hamza</h1>
       <p>
         <em className={classes.hero__Job}>Jr. Fullstack Web Developer</em>
       </p>

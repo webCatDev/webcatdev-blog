@@ -1,6 +1,6 @@
 
-import DarkModeButton from "../topNavigation/DarkModeButton";
-import SocialMediaLinks from "../topNavigation/SocialMediaLinks";
+import DarkModeButton from "../top-navigation/DarkModeButton";
+import SocialMediaLinks from "../top-navigation/SocialMediaLinks";
 import { useSelector } from "react-redux";
 
 import classes from './layout.module.scss'

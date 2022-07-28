@@ -1,10 +1,13 @@
+import { Fragment } from "react";
+import FeaturedPosts from "./featured-posts/FeaturedPosts";
 import Hero from "./hero/Hero";
 
 const Home = () => {
     return (
-        <div>
-            <Hero/>
-        </div>
+        <Fragment>
+            <Hero />
+            <FeaturedPosts/>
+        </Fragment>
     );
 }
 
